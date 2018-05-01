@@ -25,4 +25,9 @@ void draw() {
   fill (255, 255, 255);
   strokeWeight(3);
   ellipse(350, 250, 180, 180);
+  
+  //top circle (head)
+  fill (255, 255, 255);
+  strokeWeight(3);
+  ellipse(350, 135, 130, 130);
 }
