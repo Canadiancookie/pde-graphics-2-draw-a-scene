@@ -2,7 +2,7 @@
  * Graphics Assignment 2
  * by Brayden S.
  * 
- * Drawing something more complicated
+ * Drawing something more complicated (Snowman)
  * 
  */
  
@@ -30,4 +30,14 @@ void draw() {
   fill (255, 255, 255);
   strokeWeight(3);
   ellipse(350, 135, 130, 130);
+  
+  //left eye
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse (325, 120, 20, 20);
+  
+  //right eye
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse (375, 120, 20, 20);
 }
