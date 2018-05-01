@@ -20,4 +20,9 @@ void draw() {
   fill (255, 255, 255);
   strokeWeight(3);
   ellipse(350, 365, 240, 240);
+  
+  //middle circle (body)
+  fill (255, 255, 255);
+  strokeWeight(3);
+  ellipse(350, 250, 180, 180);
 }
