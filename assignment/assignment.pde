@@ -34,10 +34,31 @@ void draw() {
   //left eye
   fill (0, 0, 0);
   strokeWeight(1);
-  ellipse (325, 120, 20, 20);
+  ellipse(325, 120, 20, 20);
   
   //right eye
   fill (0, 0, 0);
   strokeWeight(1);
-  ellipse (375, 120, 20, 20);
+  ellipse(375, 120, 20, 20);
+  
+  //mouth (left to right)
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(315, 165, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(331, 175, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(350, 180, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(369, 175, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(385, 165, 14, 14);
 }
