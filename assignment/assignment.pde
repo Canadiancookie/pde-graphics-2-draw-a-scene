@@ -16,6 +16,9 @@ void draw() {
   rectMode(CENTER);
   ellipseMode(CENTER);
   
+  //make most strokes black
+  stroke(0, 0, 0);
+  
   //bottom circle
   fill (255, 255, 255);
   strokeWeight(3);
@@ -61,4 +64,11 @@ void draw() {
   fill (0, 0, 0);
   strokeWeight(1);
   ellipse(385, 165, 14, 14);
+  
+  //nose
+  stroke(255, 140, 0);
+  strokeWeight(2);
+  line(350, 135, 350, 160);
+  line(350, 135, 400, 145);
+  line(350, 160, 400, 145);
 }
