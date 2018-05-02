@@ -65,6 +65,19 @@ void draw() {
   strokeWeight(1);
   ellipse(385, 165, 14, 14);
   
+  //buttons (top to bottom)
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(350, 225, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(350, 260, 14, 14);
+  
+  fill (0, 0, 0);
+  strokeWeight(1);
+  ellipse(350, 295, 14, 14);
+  
   //nose
   stroke(255, 140, 0);
   strokeWeight(2);
