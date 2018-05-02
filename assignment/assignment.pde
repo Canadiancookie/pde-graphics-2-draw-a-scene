@@ -34,6 +34,24 @@ void draw() {
   strokeWeight(3);
   ellipse(350, 135, 130, 130);
   
+  //hat (brim)
+  fill(0, 0, 0);
+  strokeWeight(0);
+  rect(350, 73, 110, 8);
+  
+  fill(0, 0, 0);
+  strokeWeight(0);
+  rect(350, 45, 65, 60);
+  
+  //red band
+  fill(255, 0, 0);
+  stroke(255, 0, 0);
+  strokeWeight(2);
+  rect(350, 63, 66, 10);
+  
+  //reset stroke color to black
+  stroke(0, 0, 0);
+  
   //left eye
   fill (0, 0, 0);
   strokeWeight(1);
